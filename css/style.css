@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* header  */
+.header-bg{
+    background-image: url(images/header-bg.png);
+}
+.header-op{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.header-op img{
+    width: 640px;
+}
+.hello{
+    font-size: 40px;
+}
+.jack{
+    color: rgb(214, 47, 103);
+    font-size: 50px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    background: rgb(214, 47, 103);
+    border: 1px solid rgb(214, 47, 103);
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* main  */
+/* Biography  */
+main{
+    margin-top: 100px;
+    margin: 30px;
+    padding: 20px;
+}
+.main-1{
+    display: flex;
+    align-items: center;
+}
+.main-1 img{
+    width: 640px;
+}
+.main-2{
+    padding-left: 50px;
+}
+.main-2 p{
+    text-align: justify;
+}
+.main-2 h1{
+    font-size: 50px;
+}
+
+/* Latest Work  */
+.latest-work{
+    margin-top: 250px;
+}
+.latest-work h1{
+    font-size: 50px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.latest-work .latest-work-pic img{
+    width: 420px;
+}
+.latest-work .latest-work-pic{
+    display: flex;
+}
+
+/* What Client are say  */
+.client{
+    margin-top: 200px;
+}
+.client h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.client-1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.client-2{
+    margin: 20px 400px 50px 400px;
+    text-align: justify;
+}
+.client-2 p q{
+    text-align: center;
+}
+.client-3{
+    text-align: center;
+    background: rgb(214, 47, 103);
+    color: white;
+    margin: 20px 300px 50px 300px;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+/* footer  */
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 50px 50px;
+}
